@@ -1,0 +1,34 @@
+body {
+	width: 90vw;
+	height: 90vh;
+}
+.container {
+	border: 3px black solid;
+	margin-left: 100px;
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.chart {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	width: 800px;
+	text-align: center;
+}
+.btnRegions {
+	display: flex;
+	margin: 25px 0 10px 0;
+}
+.btnRegions .btn {
+	margin: 0 5px 0 5px;
+}
+.contain {
+	margin-top: 10px;
+	text-align: center;
+}
+select{
+	margin-top: 30px;
+}
